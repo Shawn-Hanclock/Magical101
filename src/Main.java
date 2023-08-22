@@ -1,7 +1,9 @@
 
-public class Main {
+public class Main
+{
     public static void main(String[] args)
     {
-        System.out.println("Hello world!");
+        MagicalAnimal bob = new MagicalAnimal("bob", "lizard", 9999, 14.272);
+        System.out.println(bob.toString());
     }
 }
