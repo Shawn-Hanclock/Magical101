@@ -34,8 +34,8 @@ public class MagicalAnimal
 
     @Override
     public String toString() {
-        return "creature stats ~- " +
-                 name + " -~" + '\n' +
+        return " ~- " +
+                 name + " -~ Stats " + '\n' +
                 "  type= '" + type + '\n' +
                 "  speed= " + speed + '\n' +
                 "  weight= " + weight;
