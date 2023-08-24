@@ -19,7 +19,7 @@ public class Karen
     public String getName()
     {
         return name;
-    }
+    }//getter for Karen name
 
     public void setNumRacers(int numRacers)
     {

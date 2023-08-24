@@ -25,7 +25,7 @@ public class MagicalAnimal
     public String getName()
     {
         return this.name;
-    }//name getter
+    }//name for magical animals getter
 
     public int getSpeed()
     {
@@ -39,5 +39,5 @@ public class MagicalAnimal
                 "  type= '" + type + '\n' +
                 "  speed= " + speed + '\n' +
                 "  weight= " + weight;
-    }//toString displaying stats
+    }//toString displaying stats without type
 }
