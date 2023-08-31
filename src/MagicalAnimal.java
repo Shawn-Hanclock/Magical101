@@ -1,31 +1,35 @@
 public class MagicalAnimal
 {
-    String name;
-    String type;
-    int speed;
-    double weight;
+    public String name;
+    public String type;
+    public int speed;
+    public double weight;
     //instance variables
 
     public MagicalAnimal()
     {
-        this.name = "";
-        this.type = "";
+        this.name = "bob";
+        this.type = "animal";
         this.speed = 0;
         this.weight = 0;
     }//empty constructor
 
-    public MagicalAnimal(String name, String type, int speed, double weight)
+    public MagicalAnimal(String name)
     {
         this.name = name;
-        this.type = type;
-        this.speed = speed;
-        this.weight = weight;
+        this.speed = 0;
+        this.weight = 0;
     }//full constructor
 
     public String getName()
     {
         return this.name;
     }//name for magical animals getter
+
+//    public String toType()
+//    {
+//        return this.type;
+//    }
 
     public int getSpeed()
     {
@@ -36,8 +40,8 @@ public class MagicalAnimal
     public String toString() {
         return " ~- " +
                  name + " -~ Stats " + '\n' +
-                "  type= '" + type + '\n' +
-                "  speed= " + speed + '\n' +
-                "  weight= " + weight;
+                "  type: " + type + '\n' +
+                "  speed: " + speed + '\n' +
+                "  weight: " + weight;
     }//toString displaying stats without type
 }
