@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d9cadfd-7206-4e4a-b5cf-b6cc2f82a74a" name="Changes" comment="created the createAnimal method, that takes in an array list that stores the animals and type used to pick the animal being created (represented as a string)">
+    <list default="true" id="2d9cadfd-7206-4e4a-b5cf-b6cc2f82a74a" name="Changes" comment="workspace.xml changes ?">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MagicalAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MagicalAnimal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unicorn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unicorn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,8 +120,53 @@
       <option name="project" value="LOCAL" />
       <updated>1693510983640</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="altered unicorn class constructors to fit with main method">
+      <created>1693511092518</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1693511092518</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added the toString to the unicorn method">
+      <created>1693511124952</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1693511124952</updated>
+    </task>
+    <task id="LOCAL-00013" summary="revised the contructors that will work together with the children of the class">
+      <created>1693511273976</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1693511273976</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added the toType method to be used with the children of the class in the driver class">
+      <created>1693511439030</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1693511439030</updated>
+    </task>
+    <task id="LOCAL-00015" summary="workspace.xml changes ?">
+      <created>1693511492270</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1693511492270</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -148,6 +191,11 @@
     <MESSAGE value="made changes to the contructor adding a revised constructor, still includes default contructor" />
     <MESSAGE value="revised contructor to work with the code in main" />
     <MESSAGE value="created the createAnimal method, that takes in an array list that stores the animals and type used to pick the animal being created (represented as a string)" />
-    <option name="LAST_COMMIT_MESSAGE" value="created the createAnimal method, that takes in an array list that stores the animals and type used to pick the animal being created (represented as a string)" />
+    <MESSAGE value="altered unicorn class constructors to fit with main method" />
+    <MESSAGE value="added the toString to the unicorn method" />
+    <MESSAGE value="revised the contructors that will work together with the children of the class" />
+    <MESSAGE value="added the toType method to be used with the children of the class in the driver class" />
+    <MESSAGE value="workspace.xml changes ?" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml changes ?" />
   </component>
 </project>
