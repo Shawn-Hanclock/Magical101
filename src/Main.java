@@ -10,7 +10,29 @@ public class Main
         //takes in user's name
 
         System.out.println("Hello " + user.getName() + " we're located here at Magical McDonald's. \nHow many creatures will you put to race?\nEnter a whole number greater than 1 (eg. '2'):");
-        user.setNumRacers(input.nextInt());
+        boolean valid = false;
+//        do
+//        {
+//            if(input.hasNext())
+//            {
+//
+//            }
+//        }
+        while(!valid)
+        {
+            if(input.hasNext())
+            {
+                if(input.nextInt() > 1)
+                {
+                    user.setNumRacers(input.nextInt());
+                    valid = true;
+                }
+                else
+                    System.out.println("Only Enter Greater Than 1:");
+            }
+            else
+                System.out.println("Please Enter Again:");
+        }
         //takes the number of racers
 
         ArrayList<MagicalAnimal> creatures = new ArrayList<MagicalAnimal>();
