@@ -15,8 +15,8 @@ public class Unicorn extends MagicalAnimal
         this.hornSharp = 2;
     }//end of constructor full
 
-//    @Override
-//    public String toString() {
-//        return "Unicorn" + super.toString();
-//    }
+    @Override
+    public String toString() {
+        return "Unicorn" + super.toString();
+    }//end of tostring
 }
