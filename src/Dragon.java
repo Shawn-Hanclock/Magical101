@@ -1,9 +1,16 @@
 public class Dragon extends MagicalAnimal
 {
-    public Dragon(String name, String type, int speed, double weight)
+    public Dragon()
     {
-        super(name, type, speed, weight);
-    }//constructor from Magical animal
+        super();
+        this.type = "Dragon";
+    }//empty constructor from magical animal
+
+    public Dragon(String name)
+    {
+        super(name);
+        this.type = "Dragon";
+    }//full constructor from Magical animal
 
     @Override
     public String getName() {
