@@ -26,10 +26,10 @@ public class MagicalAnimal
         return this.name;
     }//name for magical animals getter
 
-//    public String toType()
-//    {
-//        return this.type;
-//    }
+    public String toType()
+    {
+        return this.type;
+    }//totype returns the type of animal
 
     public int getSpeed()
     {
