@@ -5,11 +5,18 @@ public class Unicorn extends MagicalAnimal
     public Unicorn()
     {
         super();
+        this.type = "Unicorn";
         this.hornSharp = 2;
     }//end of constructor blank
-    public Unicorn(String name, String type, int speed, double weight, int hornSharp)
+    public Unicorn(String name)
     {
-        super(name, type, speed, weight);
-        this.hornSharp = hornSharp;
+        super();
+        this.type = "Unicorn";
+        this.hornSharp = 2;
     }//end of constructor full
+
+//    @Override
+//    public String toString() {
+//        return "Unicorn" + super.toString();
+//    }
 }
