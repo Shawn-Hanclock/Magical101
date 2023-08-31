@@ -19,7 +19,7 @@ public class MagicalAnimal
         this.name = name;
         this.speed = 0;
         this.weight = 0;
-    }//full constructor
+    }//name constructor
 
     public String getName()
     {
