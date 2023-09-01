@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d9cadfd-7206-4e4a-b5cf-b6cc2f82a74a" name="Changes" comment="added the code for creating the magical animal list used in karen class">
+    <list default="true" id="2d9cadfd-7206-4e4a-b5cf-b6cc2f82a74a" name="Changes" comment="created the griffith class with basic constructors">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dragon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Griffith.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Griffith.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unicorn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unicorn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693512079507</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="created the griffith class with basic constructors">
+      <created>1693538391345</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1693538391346</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -220,6 +233,7 @@
     <MESSAGE value="changed some comments" />
     <MESSAGE value="revised the user interaction in the prompts and code format" />
     <MESSAGE value="added the code for creating the magical animal list used in karen class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the code for creating the magical animal list used in karen class" />
+    <MESSAGE value="created the griffith class with basic constructors" />
+    <option name="LAST_COMMIT_MESSAGE" value="created the griffith class with basic constructors" />
   </component>
 </project>

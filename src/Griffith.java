@@ -6,11 +6,11 @@ public class Griffith extends MagicalAnimal
         super();
         this.type = "Griffith";
         this.clawLength = 0;
-    }
+    }//end of empty contructor
 
     public Griffith(String name)
     {
         super(name);
         this.clawLength = 1;
-    }
+    }//end of name constructor
 }
