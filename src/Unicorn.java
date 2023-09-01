@@ -1,6 +1,6 @@
 public class Unicorn extends MagicalAnimal
 {
-    int hornSharp;
+    private int hornSharp;
     //instance variables
     public Unicorn()
     {
@@ -10,10 +10,16 @@ public class Unicorn extends MagicalAnimal
     }//end of constructor blank
     public Unicorn(String name)
     {
-        super();
+        super(name);
         this.type = "Unicorn";
         this.hornSharp = 2;
     }//end of constructor full
+
+    @Override
+    public String getName()
+    {
+        return super.getName();
+    }//
 
     @Override
     public String toString() {
