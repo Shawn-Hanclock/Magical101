@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d9cadfd-7206-4e4a-b5cf-b6cc2f82a74a" name="Changes" comment="created the griffith class with basic constructors">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2d9cadfd-7206-4e4a-b5cf-b6cc2f82a74a" name="Changes" comment="fixed the constructor to take in the name string given as the name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dragon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Griffith.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Griffith.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unicorn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unicorn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +186,28 @@
       <option name="project" value="LOCAL" />
       <updated>1693538391346</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added class specific instance variable">
+      <created>1693538691714</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1693538691714</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added getName method">
+      <created>1693538713280</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1693538713280</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fixed the constructor to take in the name string given as the name">
+      <created>1693538748108</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1693538748108</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -234,6 +252,11 @@
     <MESSAGE value="revised the user interaction in the prompts and code format" />
     <MESSAGE value="added the code for creating the magical animal list used in karen class" />
     <MESSAGE value="created the griffith class with basic constructors" />
-    <option name="LAST_COMMIT_MESSAGE" value="created the griffith class with basic constructors" />
+    <MESSAGE value="added a class specific variable" />
+    <MESSAGE value="added the getName" />
+    <MESSAGE value="added class specific instance variable" />
+    <MESSAGE value="added getName method" />
+    <MESSAGE value="fixed the constructor to take in the name string given as the name" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed the constructor to take in the name string given as the name" />
   </component>
 </project>
