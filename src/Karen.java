@@ -56,8 +56,8 @@ public class Karen
                 list.add(creatureG);
                 break;
             default:
-                System.out.println("Enter from the given options:\n 'd' for dragon\n 'u' for unicorn\n 'g' for griffin");
-                typeCheck = input.next();
+                System.out.println("Only enter from the given options.");
+                break;
         }//end of switch block
     }//end of create animal
 
