@@ -4,9 +4,9 @@ public class Dragon extends MagicalAnimal
 {
     private int wingSpan;
     private int fireTemp;
-    public Dragon(String name, int speed)
+    public Dragon(String name, int speed, String type)
     {
-        super(name, speed);
+        super(name, speed, type);
         this.type = "Dragon";
     }//other constructor from magical animal
 
@@ -41,38 +41,37 @@ public class Dragon extends MagicalAnimal
     @Override
     public void findPlace(ArrayList<MagicalAnimal> racers, MagicalAnimal e)
     {
-//        e.setSpeed();
-//        System.out.println(e.getSpeed());
-//        super.findPlace(racers, e);
-//        int loopVal = 0;
-//        Boolean foundP = false;
-//        if(!racers.contains(e)) {
-//            while (loopVal < racers.size() && !foundP) {
-//                if (racers.get(loopVal).getSpeed() < e.getSpeed()) {
-//                    racers.add(racers.get(loopVal));
-//                    foundP = true;
-//                } else if (racers.get(loopVal).getSpeed() == this.speed) {
-//                System.out.println("we are get there yet");
-//                    switch (racers.get(loopVal).getType()) {
-//                        case ("Dragon"):
-//                        case ("Unicorn"):
-//                            racers.add(loopVal, e);
-//                            foundP = true;
-//                            break;
-//                        case ("Griffin"):
-//                            racers.add(e);
-//                            foundP = true;
-//                            break;
-//                    }
-//                }
-//                loopVal++;
-//            }
-//        }
         e.setSpeed();
-        Dragon creatureD = new Dragon(e.getName(), e.getSpeed());
-        if(racers.isEmpty())
-        super.findPlace(racers, e);
-
-
+        Dragon creatureD = new Dragon(e.getName(), e.getSpeed(), e.getType());
+        //System.out.println("This creature's speed" + creatureD.getSpeed());
+        if(racers.isEmpty()) {
+            System.out.println("added to first");
+            super.findPlace(racers, e);
+        }
+        else
+        {
+            System.out.println("speed" + creatureD.getSpeed());
+            int setSpot = 0;
+            for(int i = racers.size(); i >= 1; i--)
+            {
+                System.out.println("in for loop");
+                if(i == 0)
+                {
+                    setSpot = 0;
+                    System.out.println("added to first");
+                }
+                else if(racers.get(i - 1).getSpeed() < creatureD.getSpeed())
+                {
+                    setSpot = i -1;
+                    System.out.println("added to spot");
+                }
+                else
+                {
+                    setSpot = racers.size() - 1;
+                    System.out.println("added to end");
+                }
+            }
+            racers.add(setSpot, creatureD);
+        }
     }//end of findPlace
 }

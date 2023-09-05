@@ -77,7 +77,6 @@ public class Main
                                 g.findPlace(racers, a);
                                 break;
                         }
-                        System.out.println("next anmila");
                     }
                     saidAnswer = true;
                     break;
@@ -103,12 +102,12 @@ public class Main
 
     private static void printRacers(ArrayList<MagicalAnimal> r)
     {
-        System.out.println("fhdjsljafdlksja lfjd");
         int place = 1;
         for (MagicalAnimal a: r)
         {
-            System.out.print("(" + place + ")" + a.getName() + "-" + a.getSpeed() +"mph, ");
+            System.out.print("\n(" + place + ")" + a.getName() + "-" + a.getSpeed() +"mph ");
             place++;
         }
+        //System.out.println(r);
     }
 }

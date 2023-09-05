@@ -8,8 +8,9 @@ public class MagicalAnimal
     public int speed;
     //instance variables
 
-    public MagicalAnimal(String name, int speed)
+    public MagicalAnimal(String name, int speed, String type)
     {
+        this.type = type;
         this.name = name;
         this.speed = speed;
     }//empty constructor
@@ -50,6 +51,5 @@ public class MagicalAnimal
     public void findPlace(ArrayList<MagicalAnimal> racers, MagicalAnimal e)
     {
         racers.add(e);
-        System.out.println("are get there yet");
     }//end of findplace
 }

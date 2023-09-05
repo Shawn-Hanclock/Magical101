@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d9cadfd-7206-4e4a-b5cf-b6cc2f82a74a" name="Changes" comment="work in progress createing a ordered list of the creatures with their speeds">
+    <list default="true" id="2d9cadfd-7206-4e4a-b5cf-b6cc2f82a74a" name="Changes" comment="pulled the code off of the repo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dragon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Griffin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Griffin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MagicalAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MagicalAnimal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Unicorn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unicorn.java" afterDir="false" />
@@ -211,42 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693538748108</updated>
     </task>
-    <task id="LOCAL-00023" summary="still working on validation for input value">
-      <created>1693580707166</created>
+    <task id="LOCAL-00023" summary="pulled the code off of the repo">
+      <created>1693941083207</created>
       <option name="number" value="00023" />
       <option name="presentableId" value="LOCAL-00023" />
       <option name="project" value="LOCAL" />
-      <updated>1693580707166</updated>
+      <updated>1693941083207</updated>
     </task>
-    <task id="LOCAL-00024" summary="fixed input validation in the driver class">
-      <created>1693889535876</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1693889535876</updated>
-    </task>
-    <task id="LOCAL-00025" summary="added the option to create a griffin">
-      <created>1693889862993</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1693889862993</updated>
-    </task>
-    <task id="LOCAL-00026" summary="created a stats output for the animals after being made">
-      <created>1693890585248</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1693890585248</updated>
-    </task>
-    <task id="LOCAL-00027" summary="refactored all the attributes of each type of animal">
-      <created>1693892612499</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1693892612499</updated>
-    </task>
-    <option name="localTasksCounter" value="28" />
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -271,6 +242,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created getters and setters for some of the variables in Karen." />
+    <MESSAGE value="Created user activity, allowing them to create A karen for themselves. Created a skeleten for the validation." />
+    <MESSAGE value="Created the dragon class which extends from MagicalAnimal." />
+    <MESSAGE value="Made the child to string formated, printing the stats of the creature with their name and overall creature type." />
+    <MESSAGE value="created takeRacers method, hoping to use recursion for the input validation." />
     <MESSAGE value="refactored and added comments throughout" />
     <MESSAGE value="created unicorn class with two constructors" />
     <MESSAGE value="made changes to the contructor adding a revised constructor, still includes default contructor" />
@@ -290,22 +266,7 @@
     <MESSAGE value="added class specific instance variable" />
     <MESSAGE value="added getName method" />
     <MESSAGE value="fixed the constructor to take in the name string given as the name" />
-    <MESSAGE value="still working on validation for input value" />
-    <MESSAGE value="fixed input validation in the driver class" />
-    <MESSAGE value="added the option to create a griffin" />
-    <MESSAGE value="created a stats output for the animals after being made" />
-    <MESSAGE value="refactored all the attributes of each type of animal" />
-    <MESSAGE value="work in progress createing a ordered list of the creatures with their speeds" />
-    <option name="LAST_COMMIT_MESSAGE" value="work in progress createing a ordered list of the creatures with their speeds" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.util.InputMismatchException" package="java.util" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="pulled the code off of the repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="pulled the code off of the repo" />
   </component>
 </project>

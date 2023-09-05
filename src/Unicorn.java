@@ -7,8 +7,8 @@ public class Unicorn extends MagicalAnimal
     //instance variables
 
 
-    public Unicorn(String name, int speed) {
-        super(name, speed);
+    public Unicorn(String name, int speed, String type) {
+        super(name, speed, type);
         this.type = "Unicorn";
     }
 
