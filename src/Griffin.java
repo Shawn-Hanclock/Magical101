@@ -1,14 +1,14 @@
-public class Griffith extends MagicalAnimal
+public class Griffin extends MagicalAnimal
 {
     private int clawLength;
-    public Griffith()
+    public Griffin()
     {
         super();
-        this.type = "Griffith";
+        this.type = "Griffin";
         this.clawLength = 0;
     }//end of empty contructor
 
-    public Griffith(String name)
+    public Griffin(String name)
     {
         super(name);
         this.clawLength = 1;

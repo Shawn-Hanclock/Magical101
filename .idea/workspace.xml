@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d9cadfd-7206-4e4a-b5cf-b6cc2f82a74a" name="Changes" comment="still working on validation for input value">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="2d9cadfd-7206-4e4a-b5cf-b6cc2f82a74a" name="Changes" comment="fixed input validation in the driver class">
+      <change beforePath="$PROJECT_DIR$/src/Karen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Karen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693580707166</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="fixed input validation in the driver class">
+      <created>1693889535876</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1693889535876</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -240,7 +245,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created getters and setters for some of the variables in Karen." />
     <MESSAGE value="Created user activity, allowing them to create A karen for themselves. Created a skeleten for the validation." />
     <MESSAGE value="Created the dragon class which extends from MagicalAnimal." />
     <MESSAGE value="Made the child to string formated, printing the stats of the creature with their name and overall creature type." />
@@ -265,7 +269,8 @@
     <MESSAGE value="added getName method" />
     <MESSAGE value="fixed the constructor to take in the name string given as the name" />
     <MESSAGE value="still working on validation for input value" />
-    <option name="LAST_COMMIT_MESSAGE" value="still working on validation for input value" />
+    <MESSAGE value="fixed input validation in the driver class" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed input validation in the driver class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

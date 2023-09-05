@@ -51,9 +51,12 @@ public class Karen
                 list.add(creatureU);
                 break;
             case "g":
+                System.out.println("What's the name of the griffin?\nEnter your griffin name (eg. 'buckbeak'):");
+                Griffin creatureG = new Griffin(input.next());
+                list.add(creatureG);
                 break;
             default:
-                System.out.println("Enter from the given options:\n 'd' for dragon\n 'u' for unicorn\n 'g' for griffith");
+                System.out.println("Enter from the given options:\n 'd' for dragon\n 'u' for unicorn\n 'g' for griffin");
                 typeCheck = input.next();
         }
     }
