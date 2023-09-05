@@ -22,7 +22,11 @@ public class Main
             if(input.hasNextInt())
             {
                 int temp = input.nextInt();
-                if(temp > 1)
+                if(temp > 10)
+                {
+                    System.out.println("\'" + temp + "\' is far to large for this farm:");
+                }
+                else if(temp > 1)
                 {
                     user.setNumRacers(temp);
                     valid = true;
@@ -45,6 +49,15 @@ public class Main
             creaturesMade = creatures.size() == user.getNumRacers();
         }
         //creates arrayList of our magical animals
-        System.out.println(creatures.get(0).toString());
+        printAnimals(creatures);
      }//end of main method
+
+    private static void printAnimals(ArrayList<MagicalAnimal> c)
+    {
+        System.out.println("Animals of the farm: \n");
+        for (int i = 0; i < c.size(); i++)
+        {
+            System.out.println(c.get(i).toString());
+        }
+    }//end of print animals
 }

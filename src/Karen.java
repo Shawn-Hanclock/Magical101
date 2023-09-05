@@ -58,8 +58,8 @@ public class Karen
             default:
                 System.out.println("Enter from the given options:\n 'd' for dragon\n 'u' for unicorn\n 'g' for griffin");
                 typeCheck = input.next();
-        }
-    }
+        }//end of switch block
+    }//end of create animal
 
 
 }

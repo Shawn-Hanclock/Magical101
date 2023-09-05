@@ -11,6 +11,19 @@ public class Griffin extends MagicalAnimal
     public Griffin(String name)
     {
         super(name);
+        this.type = "Griffin";
         this.clawLength = 1;
     }//end of name constructor
+
+    @Override
+    public String getName()
+    {
+        return super.getName();
+    }//end of get name
+
+    @Override
+    public String toString()
+    {
+        return "Griffin" + super.toString();
+    }//end of toString
 }

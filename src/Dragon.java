@@ -15,13 +15,15 @@ public class Dragon extends MagicalAnimal
         this.type = "Dragon";
     }//full constructor from Magical animal
 
-//    @Override
-//    public String getName() {
-//        return super.getName();
-//    }//end of getter for Dragon name
+    @Override
+    public String getName()
+    {
+        return super.getName();
+    }//end of getter for Dragon name
 
     @Override
-    public String toString() {
+    public String toString()
+    {
         return "Dragon" + super.toString();
     }//end of tostring for dragon class
 }
