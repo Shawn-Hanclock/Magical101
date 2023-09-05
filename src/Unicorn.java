@@ -1,16 +1,17 @@
+import java.util.ArrayList;
+
 public class Unicorn extends MagicalAnimal
 {
     private int hornSharp;
     private int rainbowRange;
     //instance variables
-    public Unicorn()
-    {
-        super();
-        this.weight = 0;
+
+
+    public Unicorn(String name, int speed) {
+        super(name, speed);
         this.type = "Unicorn";
-        this.rainbowRange = 0;
-        this.hornSharp = 0;
-    }//end of constructor blank
+    }
+
     public Unicorn(String name)
     {
         super(name);
@@ -21,15 +22,16 @@ public class Unicorn extends MagicalAnimal
     }//end of constructor full
 
     @Override
-    public String getName()
-    {
-        return super.getName();
-    }//name getter
-
-    @Override
     public String toString() {
         return "(Unicorn)" + super.toString() +
                 "\n  horn sharpnss: " + this.hornSharp +
                 "\n  rainbw range: " + this.rainbowRange;
     }//end of tostring
+
+    @Override
+    public void findPlace(ArrayList<MagicalAnimal> racers, MagicalAnimal e)
+    {
+        this.speed = (int)((hornSharp * rainbowRange/ Math.sqrt(weight)));
+        super.findPlace(racers, e);
+    }//end of findplacce
 }

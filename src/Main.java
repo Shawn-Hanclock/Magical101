@@ -51,6 +51,45 @@ public class Main
         }
         //creates arrayList of our magical animals
         printAnimals(creatures);
+        //display all the stats
+
+        ArrayList<MagicalAnimal> racers = new ArrayList<MagicalAnimal>();
+        System.out.println("Lets let all these creatures race? \n('y' for yes or 'n' for no)");
+        Boolean saidAnswer = false;
+        while (!saidAnswer) {
+            switch (input.next().toLowerCase()) {
+                case ("y"):
+                    for (MagicalAnimal a : creatures)
+                    {
+                        switch (a.getType())
+                        {
+                            case("Dragon"):
+                                Dragon d = (Dragon)a;
+                                System.out.println(((Dragon) a).getFireTemp());
+                                d.findPlace(racers, a);
+                                break;
+                            case("Unicorn"):
+                                Unicorn u = (Unicorn)a;
+                                u.findPlace(racers, a);
+                                break;
+                            case("Griffin"):
+                                Griffin g = (Griffin)a;
+                                g.findPlace(racers, a);
+                                break;
+                        }
+                        System.out.println("next anmila");
+                    }
+                    saidAnswer = true;
+                    break;
+                case ("n"):
+                    System.out.println("They must race.");
+                    break;
+                default:
+                    System.out.println("Only 'y' or 'n'");
+                    break;
+            }
+        }
+        printRacers(racers);
      }//end of main method
 
     private static void printAnimals(ArrayList<MagicalAnimal> c)
@@ -61,4 +100,15 @@ public class Main
             System.out.println("AnimalID: " + i + " \n" + c.get(i).toString() + "\n");
         }//end of for loop
     }//end of print animals
+
+    private static void printRacers(ArrayList<MagicalAnimal> r)
+    {
+        System.out.println("fhdjsljafdlksja lfjd");
+        int place = 1;
+        for (MagicalAnimal a: r)
+        {
+            System.out.print("(" + place + ")" + a.getName() + "-" + a.getSpeed() +"mph, ");
+            place++;
+        }
+    }
 }

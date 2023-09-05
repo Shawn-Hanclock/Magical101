@@ -1,19 +1,22 @@
+import java.util.ArrayList;
+
 public class MagicalAnimal
 {
     public String name;
     public String type;
     public double weight;
+    public int speed;
     //instance variables
 
-    public MagicalAnimal()
+    public MagicalAnimal(String name, int speed)
     {
-        this.name = "bob";
-        this.type = "animal";
-        this.weight = 0;
+        this.name = name;
+        this.speed = speed;
     }//empty constructor
 
     public MagicalAnimal(String name)
     {
+        this.speed = 0;
         this.name = name;
     }//name constructor
 
@@ -22,10 +25,20 @@ public class MagicalAnimal
         return this.name;
     }//name for magical animals getter
 
-    public String toType()
+    public int getSpeed()
+    {
+        return this.speed;
+    }//get speed returns the speed of animal
+
+    public void setSpeed()
+    {
+
+    }//set speed
+
+    public String getType()
     {
         return this.type;
-    }//totype returns the type of animal
+    }
 
     @Override
     public String toString() {
@@ -34,4 +47,9 @@ public class MagicalAnimal
                 "\n  type: " + this.type +
                 "\n  weight: " + this.weight;
     }//toString displaying stats without type
+    public void findPlace(ArrayList<MagicalAnimal> racers, MagicalAnimal e)
+    {
+        racers.add(e);
+        System.out.println("are get there yet");
+    }//end of findplace
 }
