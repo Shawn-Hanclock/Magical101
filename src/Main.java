@@ -66,7 +66,6 @@ public class Main
                         {
                             case("Dragon"):
                                 Dragon d = (Dragon)a;
-                                System.out.println(((Dragon) a).getFireTemp());
                                 d.findPlace(racers, a);
                                 break;
                             case("Unicorn"):

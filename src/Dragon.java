@@ -44,32 +44,25 @@ public class Dragon extends MagicalAnimal
     {
         e.setSpeed();
         Dragon creatureD = new Dragon(e.getName(), e.getSpeed(), e.getType());
-        System.out.println("This creature's speed" + creatureD.getSpeed());
         if(racers.isEmpty()) {
-            System.out.println("added to first");
             super.findPlace(racers, e);
         }
         else
         {
-            System.out.println("speed" + creatureD.getSpeed());
             int setSpot = 0;
             for(int i = racers.size(); i >= 1; i--)
             {
-                //System.out.println("in for loop");
                 if(i == 0)
                 {
                     setSpot = 0;
-                    //System.out.println("added to first");
                 }
                 else if(racers.get(i - 1).getSpeed() < creatureD.getSpeed())
                 {
                     setSpot = i -1;
-                    //System.out.println("added to spot");
                 }
                 else
                 {
                     setSpot = racers.size() - 1;
-                    //System.out.println("added to end");
                 }
             }
             racers.add(setSpot, creatureD);

@@ -39,32 +39,24 @@ public class Griffin extends MagicalAnimal
     {
         e.setSpeed();
         Griffin creatureG = new Griffin(e.getName(), e.getSpeed(), e.getType());
-        System.out.println("This creature's speed" + creatureG.getSpeed());
         if(racers.isEmpty()) {
-            System.out.println("added to first");
             super.findPlace(racers, e);
         }
         else
         {
-            System.out.println("speed" + creatureG.getSpeed());
             int setSpot = 0;
             for(int i = racers.size(); i >= 1; i--)
             {
-                //System.out.println("in for loop");
-                if(i == 0)
-                {
+                if(i == 0) {
                     setSpot = 0;
-                    //System.out.println("added to first");
                 }
                 else if(racers.get(i - 1).getSpeed() < creatureG.getSpeed())
                 {
                     setSpot = i -1;
-                    //System.out.println("added to spot");
                 }
                 else
                 {
                     setSpot = racers.size() - 1;
-                    //System.out.println("added to end");
                 }
             }
             racers.add(setSpot, creatureG);
