@@ -13,10 +13,10 @@ public class Dragon extends MagicalAnimal
     public Dragon(String name)
     {
         super(name);
-        this.weight = (Math.random() * 10000) + 1;
+        this.weight = Math.round((Math.random() * 1000) + 20);
         this.type = "Dragon";
-        this.wingSpan = (int)(Math.random() * 20) + 1;
-        this.fireTemp = (int)(Math.random() * 111) + 1;
+        this.wingSpan = (int)(Math.random() * 20) + 10;
+        this.fireTemp = (int)(Math.random() * 111) + 11;
     }//full constructor from Magical animal
 
     public int getFireTemp()
@@ -25,25 +25,26 @@ public class Dragon extends MagicalAnimal
     }//end of get fire temp
 
     @Override
-    public void setSpeed() {
-        super.setSpeed();
-        this.speed = (int)((wingSpan/Math.sqrt(weight)) * fireTemp/ 3);
-    }
-
-    @Override
     public String toString()
     {
         return "(Dragon)" + super.toString() +
                 "\n  fire temp: " + fireTemp +
                 "\n  wing span: " + wingSpan;
-    }//end of tostring for dragon class
+    }//end of to string for dragon class
+
+    @Override
+    public void setSpeed() {
+        super.setSpeed();
+        this.speed = this.speed + (int)((wingSpan/Math.sqrt(weight)) * fireTemp/ 11);
+    }//end of setSpeed
+
 
     @Override
     public void findPlace(ArrayList<MagicalAnimal> racers, MagicalAnimal e)
     {
         e.setSpeed();
         Dragon creatureD = new Dragon(e.getName(), e.getSpeed(), e.getType());
-        //System.out.println("This creature's speed" + creatureD.getSpeed());
+        System.out.println("This creature's speed" + creatureD.getSpeed());
         if(racers.isEmpty()) {
             System.out.println("added to first");
             super.findPlace(racers, e);
@@ -54,21 +55,21 @@ public class Dragon extends MagicalAnimal
             int setSpot = 0;
             for(int i = racers.size(); i >= 1; i--)
             {
-                System.out.println("in for loop");
+                //System.out.println("in for loop");
                 if(i == 0)
                 {
                     setSpot = 0;
-                    System.out.println("added to first");
+                    //System.out.println("added to first");
                 }
                 else if(racers.get(i - 1).getSpeed() < creatureD.getSpeed())
                 {
                     setSpot = i -1;
-                    System.out.println("added to spot");
+                    //System.out.println("added to spot");
                 }
                 else
                 {
                     setSpot = racers.size() - 1;
-                    System.out.println("added to end");
+                    //System.out.println("added to end");
                 }
             }
             racers.add(setSpot, creatureD);

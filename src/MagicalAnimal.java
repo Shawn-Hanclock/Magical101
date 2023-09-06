@@ -33,7 +33,7 @@ public class MagicalAnimal
 
     public void setSpeed()
     {
-
+        this.speed = 101;
     }//set speed
 
     public String getType()

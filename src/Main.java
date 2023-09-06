@@ -1,5 +1,6 @@
-import java.util.Scanner;
-import java.util.ArrayList;
+//import java.util.Scanner;
+//import java.util.ArrayList;
+import java.util.*;
 public class Main
 {
     public static void main(String[] args)
@@ -102,6 +103,7 @@ public class Main
 
     private static void printRacers(ArrayList<MagicalAnimal> r)
     {
+        Collections.sort(r, new SortBySpd());
         int place = 1;
         for (MagicalAnimal a: r)
         {
