@@ -51,6 +51,7 @@ public class Main
             creaturesMade = creatures.size() == user.getNumRacers();
         }
         //creates arrayList of our magical animals
+
         printAnimals(creatures);
         //display all the stats
 
@@ -109,6 +110,7 @@ public class Main
             System.out.print("\n(" + place + ")" + a.getName() + "-" + a.getSpeed() +"mph ");
             place++;
         }
+        System.out.println("\nThe winner is " + r.get(0).getName());
         //System.out.println(r);
     }
 }

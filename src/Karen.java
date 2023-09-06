@@ -60,10 +60,4 @@ public class Karen
                 break;
         }//end of switch block
     }//end of create animal
-
-    public void sortAnimal(int spd,  ArrayList<MagicalAnimal> animals)
-    {
-
-    }
-
 }
