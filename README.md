@@ -1,4 +1,5 @@
 # MagicalMcDonalds
+## Advanced Java 2023-2024
 A project using hierachies, scanner, and the console, after a vote in my Advanced Java class we made the topic and theme magic. 
 
 Rubric for the project:
