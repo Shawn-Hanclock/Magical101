@@ -4,7 +4,7 @@
  Magical mcdonalds uses java object to add functionality.</p>
 
 ## Assignment Rubric
-## Driver Class
+Driver Class
 >  - Created at least two objects for each reference class	
 >  - Called sufficient getters/setters	
 >  - Called brain/toString	
@@ -12,22 +12,22 @@
 >  - Parent class exists and three childen extend it
 >  - Created and output an Array / ArrayList of children
 
-## Must have 5 Object Classes:
+Must have 5 Object Classes:
 >  - Parent
 >  - Child 1
 >  - Child 2
 >  - Child 3
 >  - Other Reference Classes
 
-## Each Object Class Should
+Each Object Class Should
 >  - Constructors ( > 1)
 >  - Getters
 >  - Setters
 >  - toString
 
-## Children and Reference Class Should
+Children and Reference Class Should
 >  - Brain Method ( > 1)
 
-## Children Should Also
+Children Should Also
 >  - Has unique attributes
 >  - Has Validation
